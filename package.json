@@ -2,7 +2,7 @@
   "name": "sample",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.js", #updated code
   "scripts": {
     "start": "SERVER=http://localhost:8082 node server.js",
     "test": "SERVER=http://localhost:8082 nyc --temp-dir=tmp mocha --exit"
